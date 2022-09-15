@@ -1,0 +1,87 @@
+{"teammembers":[
+	{
+        "name":"Miles",
+		"title":"Marketing Manager",
+		"department":"Sales",
+		"bio":"Miles is the marketing manager of Dr. Toast. He primarily plans, directs, or coordinates marketing policies and programs, such as determining the demand for products and services offered by a firm and its competitors, and identify potential customers. Develop pricing strategies with the goal of maximizing the firms profits or share of the market while ensuring the firm's customers are satisfied."
+	},
+	{
+		"name":"Bruce",
+		"title":"Facilities Manager",
+		"department":"Facility",
+		"bio":"Bruce is the Facilities Manager of the Dr. Toast. Rob plans, directs, or coordinates operations and functionalities of facilities in the building. May include surrounding grounds or multiple facilities of building."
+	},
+	{
+		"name":"Clark",
+		"title":"Human Resources Manager",
+		"department":"Administration",
+		"bio":"Clark joined Dr. Toast in October 2010 as Dr. Toast's first Human Resources Manager. As such, he has overall human resources responsibility for Dr. Toast operations. His task includes hiring and interviewing staff, administering pay, benefits, and leave, and enforcing company policies and practices."
+	},
+	{
+		"name":"Gwen",
+		"title":"Sales Manager",
+		"department":"Sales",
+		"bio":"Gwen serves as the Sales Manager of Sales and Marketing for Dr. Toast. In this role Mike plans, directs, or coordinates the actual distribution or movement of a product or service to the customer."
+	},
+    {
+        "name":"Peter",
+		"title":"Accounting Manager",
+		"department":"Finance",
+		"bio":"Peter is Accountant of the Dr. Toast .With over 14 years of public accounting and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, John is the most seasoned and diversed member of the Dr. Toast's team."
+	},
+	{
+		"name":"Octavius",
+		"title":"Purchasing Manager",
+		"department":"Sales",
+		"bio":"Octavius, being the Purchasing manager, plans, direct, or coordinate the activities of buyers, purchasing officers, and related workers involved in purchasing materials, products, and services. He joined Dr. Toast in late 2018 and has already made a great positive impact to the company economy."
+	},
+	{
+		"name":"Ben",
+		"title":"Transportation, Storage, and Distribution Manager",
+		"department":"Transporation",
+		"bio":"Ben's main role is to plan, direct, or coordinate transportation, storage, or distribution activities in accordance with organizational policies and applicable government laws or regulations. He handles all the transportation stuffs very well in the company."
+	},
+	{
+		"name":"Stuart",
+		"title":"Computer Information snd system Manager",
+		"department":"IT",
+		"bio":"Stuart is the IT guy of the team. He primarily plans, directs, or coordinates activities in such fields as electronic data processing, information systems, systems analysis, and computer programming. He has a great responsibility to handle electronic data of the comapany as well and maintaing the database in the server."
+	},
+	{
+		"name":"Tony",
+		"title":"Training And Development Manager",
+		"department":"Training",
+		"bio":"Tony is the Training and development manager of the comapany. He plans, directs, or coordinates the training and development activities and staff of an organization. He has 5 years of expericnce of providing training to the staffs and other employees to properly handle the company's assigned tasks. "
+	},
+	{
+		"name":"Rosetta",
+		"title":"General and Operations Manager",
+		"department":"Operation",
+		"bio":"Rosetta plans, directs, or coordinates the operations of public or private sector organizations, overseeing multiple departments or locations. Duties and responsibilities include formulating policies, managing daily operations, and planning the use of materials and human resources, but are too diverse and general in nature to be classified in any one functional area of management or administration, such as personnel, purchasing, or administrative services. Usually manage through subordinate supervisors. "
+	},
+	{
+		"name":"Thomas",
+		"title":"Advertising and Promotions Manager",
+		"department":"Sales",
+		"bio":"Thomas joined Dr. Toast in the mid of 2015 as Sales Manager but later on he was assigned the task of Advertising and Promotion manager. He plans, directs, or coordinates advertising policies and programs or produce collateral materials, such as posters, contests, coupons, or giveaways, to create extra interest in the purchase of a product or service for a department, an entire organization, or on an account basis."
+	},
+	{
+		"name":"Paul",
+		"title":"Supervisor",
+		"department":"Sales",
+		"bio":"Paus is also the store manager and he is responsible for overseeing the daily operations of a retail store, including product availability and pricing. Other duties entail managing the staff and customer services, and controlling finances. He has been a fantastic team member since he joined Dr. Toast in the middle of the pandemic in early 2020."
+	},
+	{
+		"name":"Christiano",
+		"title":"Labourer",
+		"department":"Warehouse",
+		"bio":"Christiano is the labourer of the warehouse. He loads/unloads goods from the carrier truck. He also makes skids of goods and wraps them properly after a skid is full. He is interested in playing football and hopes to be a footballer one day. He is a very helpful person and is generally a humble guy. He has helped us many times when the trucks arrive suddenly in the warehouse. We are lucky to have him."
+	},
+	{
+		"name":"Aseem",
+		"title":"Plumber",
+		"department":"Miscellaneous",
+		"bio":"Aseem is the Plumber of Dr. Toast. He oversees internal pipes, helping to build strong pipes, maximizing their durability, and helping to achieve the company's financial goals by maintaining pipes before they burst open and flood our basements. We don't know what will be of us if Aseem leaves. May God forever make Aseem stay with us."
+	}
+	
+]}

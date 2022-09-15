@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Created by : Aseem Timalsina - c0839829 -->
+<html lang="en">
+<head>
+    <title>Dr. Toast</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery.highlight.js"></script>
+    <script src="./js/vectaMenu.js"></script>
+	<script src="./js/jquery.validate.min.js"></script>
+	<script src="./js/additional-methods.min.js"></script>	
+	<script src="./js/validation.js"></script>
+</head>
+<body>
+
+    <div id="container">
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website -->
+    <nav>
+        <ul id="vecta_menu">
+            <li id="logo">
+                <a href="index.html">
+                    <img
+                        src="images/logoFinal.png" alt="Dr. Toast logo" 
+                    >
+                </a>
+            </li>        
+            <li class="nav-links"><a href="index.html">Home</a></li>
+            <li class="nav-links"><a href="about.html">About</a></li>
+            <li class="nav-links"><a href="team.html">Our Team</a></li>
+            <li class="nav-links"><a href="specials.html">Specials</a></li>
+            <li class="nav-links"><a href="training.html">Training</a></li>
+            <li class="nav-links"><a href="media.html">Media</a></li>
+            <li class="nav-links"><a href="contact.html">Contact Us</a></li>
+            <li class="nav-links dropdown"><a href="#">Reports</a>
+                <div class="dropdown-content">
+                    <a href="view1.html" target="_blank">Toaster Listing</a>
+                    <a href="view2.html" target="_blank">Orders</a>
+                    <a href="view3.html" target="_blank">Order Totals</a>
+                    <a href="view4.html" target="_blank">Total Inventory</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</nav>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+        <h2>Questions?</h2>
+        <h2>Hit us with any of your queries at any time of the day.</h2>
+        
+        <form action="response.html" method="get"
+            name="contact_form" id="contact_form"><!-- Start From -->
+            <fieldset>
+               <legend>Personal Information:</legend> 
+               <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" placeholder="John"  size="20" autofocus required>
+
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName" placeholder="Doe" size="20" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="john.doe@example.com" size="20" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(+1) ### ### ####" size="12" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Info:</legend>
+                <p>I would like more information about:</p>
+                <ul>
+                    <li><input type="checkbox" checked name="grpfit" id="grpfit" value="grpfit" class="chkbx">Pop-Up Toaster</li>
+                    <li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Counter-Top Toaster</li>
+                    <li><input type="checkbox" name="nutr" id="nutr" 
+                    value="nutr" class="chkbx">Newest Technology</li>
+                </ul>
+
+                <label for="reference">Referral Source:</label>
+                <select name="reference" id="reference">
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="google">Google</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="questions">Question(s):</label>
+                <textarea id="questions" name="questions" rows="5" cols="25"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit" class="btn">
+            <input type="reset" id="reset" value="Reset Form" class="btn">
+        </form>
+
+        <p>
+            Headquarter:<br>
+            12345 Stairway Heaven<br>
+            Cloud, HH 6789
+        </p>
+
+        <p>Phone Number</p>
+        <p>
+            <a class="mobile" href="tel:8145559608">(666) 666-6666</a>
+        </p>
+
+        <p>Email Address</p>
+        <p>
+            <a href="mailto:drtoast@toaster.net" class="contact">
+                drtoast@toaster.net</a>
+        </p>
+    </main>
+
+    <!-- Use the footer are to add webpage footer content -->
+    <footer>
+        &copy; Copyright 2099. All Rights Reserved.<br>
+        <a href="mailto:c0839829@mylambton.ca">Request Information</a> <br>
+        Aseem Timalsina &nbsp; &nbsp; c0839829
+    </footer>
+
+    </div>
+
+</body>
+</html>

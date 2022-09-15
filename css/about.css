@@ -1,0 +1,224 @@
+/* Style sheet created by Aseem Timalsina, 2021/11/07 */
+
+/* Style for body specifies a background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #daa520;
+}
+
+
+/* Styles for Mobile Layout */
+
+/* Style for container centers the page and sets the element
+width */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for nav specifies text properties */
+nav {
+    font-family: Gerogia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounder corners, removes bullet style, and applies margins and padding for list items within the 
+navigation */
+nav li {
+    background-color: brown;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+} 
+
+#logo {
+    background-color: #daa520;
+    max-width: 100%;
+}
+
+nav img {
+    margin-bottom: -.25em;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.guarantee {
+    font-weight: bold;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+main {
+    display: block;
+    background-color: rgb(230, 230, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border-top: solid 0.2em black;
+    border-bottom: solid 0.2em black;
+}
+
+h2 {
+    padding-left: 25px;
+    background: url(../images/plus.png) no-repeat left center;
+    cursor: pointer;
+}
+ 
+h2 a{
+    color: brown;
+}
+
+h2.minus {
+    background: url(../images/minus.png) no-repeat left center;
+}
+
+h2 a:focus, h2 a:hover { 
+	color: rgb(255, 52, 52);
+}
+
+article div {
+    display: none;
+    border: 1px solid transparent;
+}
+
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Media query for table viewport targets screen size with a minimum width of 746px */
+
+@media only screen and (min-width: 746px) {
+nav li {
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: .75%;
+    margin-right: .75%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 20%;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    margin-left: 43%;
+}
+
+main {
+    clear: left;
+    margin-top: 2em;
+}
+
+.mobile {
+    display: none;
+}
+
+.tablet {
+    display: block;
+}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum widht of 1000px */
+
+@media only screen and (min-width: 1242px) {
+
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop {
+    display: block;
+}
+
+#logo {
+    margin:0;
+    background-color: brown;
+    padding-left: 5%;
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: brown;
+    margin: 0;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+nav li {
+    padding-top: 0.25em;
+    font-size: 1.25em;
+    list-style: none;
+    white-space: nowrap;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav .nav-links a:hover {
+    color: black;
+}
+
+main {
+    clear: both;
+    margin-top: .5em;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px; 
+    border: 1px solid black;
+    box-shadow: 0.5em 0.5em 0.5em #404040;
+}
+
+.desktop {
+    display: block;
+}
+
+footer {
+    clear: both;
+    margin-top: 2em;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+footer a{
+    text-decoration: none;
+}
+    
+}

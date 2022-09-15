@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #daa520;
+}
+
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vecta_menu {
+    margin-top:0;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+}
+
+#vecta_menu li {
+    padding-top: 0.25em;
+    font-size: 1.5em;
+    list-style: none;
+    white-space: nowrap;
+}
+#vecta_menu li > a{
+    text-decoration: none;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {   
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(165, 42, 42,0.75);
+    min-width: 161px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -1.60em;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 0.80em;
+    padding: 0.4em;     
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: transparent !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    clear: both;
+    margin-top: .5em;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px; 
+    border: 1px solid black;
+    box-shadow: 0.5em 0.5em 0.5em #404040;
+    font-size: 1em;
+}
+
+main h2 {
+    padding-left: 1em;
+}
+
+
+form{
+    width: 50%;
+    margin-left: 25%;
+    padding: 1em;   
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: silver;
+}
+
+label {
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 0.5em;
+    width: 10em;
+}
+
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+    background-color: rgb(230, 230, 230);
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+}
+
+/* Style rule for chkbx class */
+.chkbx {
+    display: inline-block;
+}
+
+/* Style rule for btn class */
+.btn {
+    margin-left: 12em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+main p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+form p {
+    display: block;
+}
+
+footer {
+    clear: both;
+    margin-top: 2em;
+    border-top: 1px solid black;
+    text-align: center;  
+    font-size: 0.75em;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+label.error {
+    text-align: left;
+    float: none;
+    display: block;
+	color: red;
+    margin-bottom: 1em;
+    margin-left: 10.5em;
+    margin-top: -0.50em;
+    width: 12em;
+}

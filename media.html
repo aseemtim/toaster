@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Created by : Aseem Timalsina - c0839829 -->
+<html lang="en">
+<head>
+    <title>Dr. Toast</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="./js/jquery.highlight.js"></script>
+    <script src="./js/vectaMenu.js"></script>
+    <script src="./js/colorTransition.js"></script>
+</head>
+<body>
+
+    <div id="container">
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website -->
+    <nav>
+        <ul id="vecta_menu">
+            <li id="logo">
+                <a href="index.html">
+                    <img
+                        src="images/logoFinal.png" alt="Dr. Toast logo" 
+                    >
+                </a>
+            </li>        
+            <li class="nav-links"><a href="index.html">Home</a></li>
+            <li class="nav-links"><a href="about.html">About</a></li>
+            <li class="nav-links"><a href="team.html">Our Team</a></li>
+            <li class="nav-links"><a href="specials.html">Specials</a></li>
+            <li class="nav-links"><a href="training.html">Training</a></li>
+            <li class="nav-links"><a href="media.html">Media</a></li>
+            <li class="nav-links"><a href="contact.html">Contact Us</a></li>
+            <li class="nav-links dropdown"><a href="#">Reports</a>
+                <div class="dropdown-content">
+                    <a href="view1.html" target="_blank">Toaster Listing</a>
+                    <a href="view2.html" target="_blank">Orders</a>
+                    <a href="view3.html" target="_blank">Order Totals</a>
+                    <a href="view4.html" target="_blank">Total Inventory</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+        <div class="video">
+            <video controls>
+                <!-- https://www.youtube.com/watch?v=ZR7UsOIhG1E&t=9s -->
+                <source src="medias/toasterAD.mp4" type="video/mp4">
+                <p>Your browser does not support the video tag.</p>
+            </video>
+        </div>
+        <div class="audio">
+            <audio controls>
+                <!-- https://www.youtube.com/watch?v=Wz34KiHILUs -->
+                <source src="medias/rockAndRoll.mp3" type="audio/mp3" autoplay>
+                <p>Your browser does not support the audio tag.</p>
+            </audio>
+        </div>
+        <div id="color-transition">
+            <button id="btnChange" class="ui-state-default ui-corner-all">Click Me!</button>
+        </div>
+    </main>
+
+    <!-- Use the footer are to add webpage footer content -->
+    <footer>
+        &copy; Copyright 2099. All Rights Reserved.<br>
+        <a href="mailto:c0839829@mylambton.ca">Request Information</a> <br>
+        Aseem Timalsina &nbsp; &nbsp; c0839829
+    </footer>
+
+    </div>
+
+</body>
+</html>

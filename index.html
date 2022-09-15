@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Created by : Aseem Timalsina - c0839829 -->
+<html lang="en">
+<head>
+    <title>Dr. Toast</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery.highlight.js"></script>
+    <script src="./js/vectaMenu.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/slide_show.js"></script>
+    <style>
+        #vecta_menu li{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website -->
+    <nav>
+        <ul id="vecta_menu">
+            <li id="logo">
+                <a href="index.html">
+                    <img
+                        src="images/logoFinal.png" alt="Dr. Toast logo" 
+                    >
+                </a>
+            </li>        
+            <li class="nav-links"><a href="index.html">Home</a></li>
+            <li class="nav-links"><a href="about.html">About</a></li>
+            <li class="nav-links"><a href="team.html">Our Team</a></li>
+            <li class="nav-links"><a href="specials.html">Specials</a></li>
+            <li class="nav-links"><a href="training.html">Training</a></li>
+            <li class="nav-links"><a href="media.html">Media</a></li>
+            <li class="nav-links"><a href="contact.html">Contact Us</a></li>
+            <li class="nav-links dropdown report"><a href="#">Reports</a>
+                <div class="dropdown-content">
+                    <a href="view1.html" target="_blank">Toaster Listing</a>
+                    <a href="view2.html" target="_blank">Orders</a>
+                    <a href="view3.html" target="_blank">Order Totals</a>
+                    <a href="view4.html" target="_blank">Total Inventory</a>
+                </div>
+            </li>
+            <li><input type="text" size="13" id="search">
+                <input type="button" value="Search" id="btnSearch">
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+        <div id="searchResults"></div>
+        <img id="slide" src="./images/slider/slider-image1.jpg" alt="Many Toasters">
+    <div id="slides"> 
+        <img src="./images/slider/slider-image2.jpg" alt="Black Cuisinart Toaster">
+        <img src="./images/slider/slider-image3.jpg" alt="Two Cuisinart Toaster">
+        <img src="./images/slider/slider-image4.jpg" alt="KitchenAid Toaster">
+        <img src="./images/slider/slider-image5.jfif" alt="Toasters">
+        <img src="./images/slider/slider-image6.jpg" alt="Three SMEG Toasters">
+    </div>
+        <p>
+            Welcome to Dr. Toast. Our mission is to provide toasters to customers according to their choices and needs.
+        </p>
+        <h1>Sign up Today!</h1>
+    </main>
+
+    <!-- Use the footer are to add webpage footer content -->
+    <footer>
+        &copy; Copyright 2099. All Rights Reserved.<br>
+        <a href="mailto:c0839829@mylambton.ca">Request Information</a> <br>
+        Aseem Timalsina &nbsp; &nbsp; c0839829
+    </footer>
+
+    </div>
+
+</body>
+</html>
