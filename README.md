@@ -1,4 +1,5 @@
 # toaster
 
-My 2nd semester project built using JQuery. However, JQuery does not work in the live version.
-Live version: https://github.com/aseemtim/toaster
+My 2nd semester project built using JQuery. 
+View is broken because it is served by college's server.
+Live version: https://aseemtim.github.io/toaster/index.html
